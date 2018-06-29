@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Move below to templates -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/cycle2.js"></script>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<!-- Template level code ends. -->
+</head>
+<body>
+	<!-- Product Combinator component code starts -->
+	<div class="background">
+	    <div class="layer">
+	    	<div class="container padding-60">
+	    		<div class="row">
+	    			<!-- Banner marketing text from dialog. -->
+	    			<div class="col-sm-12 col-md-5">
+	    				<h2>See how New Relic Synthetics works with our other products</h2>
+	    			</div>
+	    			<!-- List of product image & description to be retrieved from dialog. -->
+	    			<!-- Iterate this list to generate configurable product tabs. -->
+	    			<div class="col-sm-12 col-md-7 padding-top-15">
+	    				<ul class="nav nav-pills">
+							<li class="active">
+								<a data-toggle="tab" href="#apm">
+									<img class= "navbar-img" src="assets/img/logo_apm_white.svg"/>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tab" href="#browser">
+									<img class= "navbar-img" src="assets/img/logo_browser_white.svg"/>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tab" href="#infra">
+									<img class= "navbar-img" src="assets/img/logo_infrastructure_White.svg"/>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tab" href="#mobile">
+									<img class= "navbar-img" src="assets/img/logo_mobile_white.svg"/>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content padding-top-25">
+						    <div id="apm" class="tab-pane fade in active">
+						      <p class="header">New Relic Synthetics + New Relic APM</p>
+								<p>Synthetic transaction traces can connect your Synthetics results to APM transaction traces. While Synthetics results capture browser-side details from each Synthetics check, transaction traces capture the activity on your app server. When you connect Synthetics to APM, you can view both sides of every Synthetics run.</p>
+						    </div>
+						    <div id="browser" class="tab-pane fade">
+						      <p class="header">New Relic Synthetics + New Relic Browser</p>
+								<p>Use New Relic Synthetics' scripted browser monitors to go beyond ensuring that your website is available, to ensuring that critical business transactions are operating correctly.</p>
+						    </div>
+						    <div id="infra" class="tab-pane fade">
+						      <p class="header">New Relic Synthetics + New Relic Infrastructure</p>
+								<p>While a monitoring solution like APM monitors the systems within your infrastructure, Synthetics will be able to enhance your monitoring capabilities by giving you visibility into end-to-end performance and degradations.</p>
+						    </div>
+						    <div id="mobile" class="tab-pane fade">
+						      <p class="header">New Relic Synthetics + New Relic Mobile</p>
+								<p>New Relic Synthetics allows you to proactively monitor your website by offering browser tests, which run real, Selenium-powered scripts on your Chrome browser on your mobile device from locations around the world to ensure your content is always up, everywhere.</p>
+						    </div>
+						</div>
+					</div>
+	    		</div>
+	    		<!-- Remove Back button in actual component. -->
+	    		<div style="text-align: center">
+					<a href="index.html">Back</a>
+				</div>
+	   		</div>
+	   	</div>
+	</div>
+	<!-- Product Combinator component code ends -->
+</body>
+</html>
